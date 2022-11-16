@@ -1,0 +1,43 @@
+{
+  "name": "cypresstestngpractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress": "^11.1.0",
+    "javascript": "^1.0.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ng": "ng",
+    "conventional-changelog": "conventional-changelog",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:prod": "npm run build -- --prod --aot",
+    "test": "ng test",
+    "test:coverage": "rimraf coverage && npm run test -- --code-coverage",
+    "lint": "ng lint",
+    "lint:fix": "ng lint ngx-admin-demo --fix",
+    "lint:styles": "stylelint ./src/**/*.scss",
+    "lint:ci": "npm run lint && npm run lint:styles",
+    "pree2e": "webdriver-manager update --standalone false --gecko false",
+    "e2e": "ng e2e",
+    "docs": "compodoc -p src/tsconfig.app.json -d docs",
+    "docs:serve": "compodoc -p src/tsconfig.app.json -d docs -s",
+    "prepush": "npm run lint:ci",
+    "release:changelog": "npm run conventional-changelog -- -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PadejskiJ/cypress-testing-practise.git"
+  },
+  "author": "jelena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PadejskiJ/cypress-testing-practise/issues"
+  },
+  "homepage": "https://github.com/PadejskiJ/cypress-testing-practise#readme",
+  "description": ""
+}

@@ -9,7 +9,9 @@
     "mocha": "^10.1.0",
     "typescript": "^4.9.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.2.3"
+  },
   "scripts": {
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",
@@ -39,5 +41,5 @@
     "url": "https://github.com/PadejskiJ/cypress-testing-practise/issues"
   },
   "homepage": "https://github.com/PadejskiJ/cypress-testing-practise#readme",
-  "description": ""
+  "description": "I am on Testing Internship, learning, practicing, writting automation tests, and testing Basic Calculator, \r URL: https://testsheepnz.github.io/BasicCalculator.html#main-body"
 }
